@@ -44,6 +44,8 @@ class WriterTest {
         databaseWriter = new DatabaseWriter("name");
         abstractWriter = (AbstractWriter) databaseWriter;
         abstractWriter.write(TEST_STRING);
+
+
     }
 
 }
